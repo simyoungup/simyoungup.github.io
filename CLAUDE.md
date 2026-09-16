@@ -48,7 +48,7 @@
 - Groupality 표준 번역=집단자기. 집단인격은 법철학 맥락에서만.
 - 총합자기(總合自己, Total Self). 삼아(參我)는 세 반경의 자기.
 - PISM=패턴 인식 자기 모델. P-I-S-M 4축 풀이 금지.
-- ULRP→ULBP. GDI=집격품격지수. CSDI=구조피해지수. GRISP 영문 정식명 하나만.
+- ULRP→ULBP. GDI=집격품격지수. CSDI=구조피해지수. GRISP=글로벌 평판 정보 공유 플랫폼(Global Reputation Information Sharing Platform) 하나만.
 - 삼충동=자기보존·확장·정당화.
 - 비법=합법 형식 안의 구조적 폭력. 비법지대=회색 영역. 형사 불법과 구별.
 - 힘·돈·멋은 진단 축이다. 자동 진보 서사 금지.
