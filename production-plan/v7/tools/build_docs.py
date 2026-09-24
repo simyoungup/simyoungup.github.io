@@ -39,6 +39,10 @@ parts = {
                    for vid in by if by[vid].get("mito_link")]),
     "OPENING": table(["ID", "제목", "사이 열기·패권 판정 슬롯"],
                      [[vid, title(vid), by[vid]["opening_slot"]] for vid in by if by[vid].get("opening_slot")]),
+    "MINPA": table(["항목", "제안 정의"],
+                   [[label, cat["minpa_paepa"]["proposal"][k]] for k, label in
+                    (("민파", "민파"), ("패파", "패파"), ("scope", "적용 범위"), ("status", "지위"))]),
+    "MINPA_NOTES": "\n".join("- " + n for n in cat["minpa_paepa"]["proposal"]["review_notes"]),
     "LEGACY": table(["ID", "제목", "기존 대본(Drive 대본 종합집)"],
                     [[vid, title(vid), by[vid]["legacy_script"]] for vid in by if by[vid].get("legacy_script")]),
     "TIME": table(["ID", "제목", "재확인 내용"],

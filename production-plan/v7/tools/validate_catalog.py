@@ -69,6 +69,16 @@ elif "[신규" not in json.dumps(cat.get("minpa_paepa", {}), ensure_ascii=False)
 if not any(v.get("mito_link") for v in vs):
     errors.append("미토가 어느 회차에도 연결되지 않음")
 
+# 6a. 철회된 주장(v6 정정서): 미토 2조건론이 철회 기록 밖에 남아 있으면 오류
+live = {k: v for k, v in cat.items() if k != "retractions"}
+live_blob = json.dumps(live, ensure_ascii=False)
+for bad in ("2조건", "물질 조건과 의식", "의식 조건"):
+    if bad in live_blob:
+        errors.append(f"철회된 미토 2조건론 표현 '{bad}'이 남아 있음")
+if "민파" in blob and "proposal" in cat.get("minpa_paepa", {}):
+    if "승인 전" not in cat["minpa_paepa"]["proposal"].get("status", ""):
+        errors.append("민파/패파 제안 정의에 '저자 승인 전' 사용 제한이 없음")
+
 # 6b. 용어 고정(CLAUDE.md 6절)과 9대이론 정식 명칭(사이론 v0.37 부록 G)
 for bad, why in [("集擊", "집격=集格만"), ("마음사상", "Simup Sasang"), ("ULRP", "ULRP→ULBP"),
                  ("집격이론", "9대이론 정식 명칭은 집격론"), ("기준점원칙(ULBP)", "정식 명칭은 상위레벨 기준점(ULBP)")]:
