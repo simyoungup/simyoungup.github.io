@@ -64,8 +64,8 @@ elif ids and "추정" in reg.get("status", ""):
 blob = json.dumps(cat, ensure_ascii=False)
 if "민파" not in blob:
     errors.append("민파/패파가 카탈로그에 한 번도 등장하지 않음(기획서는 주요 기획축이라 함)")
-elif "[신규" not in json.dumps(cat.get("minpa_paepa", {}), ensure_ascii=False):
-    warns.append("민파/패파가 강령에 없는 개념인데 [신규] 표시가 없음(CLAUDE.md 7절)")
+elif not cat.get("minpa_paepa", {}).get("source") and "[신규" not in json.dumps(cat.get("minpa_paepa", {}), ensure_ascii=False):
+    warns.append("민파/패파에 원전도 [신규] 표시도 없음(CLAUDE.md 7절)")
 if not any(v.get("mito_link") for v in vs):
     errors.append("미토가 어느 회차에도 연결되지 않음")
 

@@ -41,7 +41,7 @@ parts = {
                      [[vid, title(vid), by[vid]["opening_slot"]] for vid in by if by[vid].get("opening_slot")]),
     "MINPA": table(["항목", "제안 정의"],
                    [[label, cat["minpa_paepa"]["proposal"][k]] for k, label in
-                    (("민파", "민파"), ("패파", "패파"), ("scope", "적용 범위"), ("status", "지위"))]),
+                    (("민파", "민심 방향(정정서의 '민파')"), ("패파", "패권 방향(정정서의 '패파')"), ("scope", "적용 범위"), ("status", "지위"))]),
     "MINPA_NOTES": "\n".join("- " + n for n in cat["minpa_paepa"]["proposal"]["review_notes"]),
     "LEGACY": table(["ID", "제목", "기존 대본(Drive 대본 종합집)"],
                     [[vid, title(vid), by[vid]["legacy_script"]] for vid in by if by[vid].get("legacy_script")]),
@@ -127,8 +127,8 @@ li{{margin:4px 0}}
 
 
 (V7 / "85편_총괄제작기획_v7.html").write_text(render(md, "85편 총괄 제작기획 v7"), encoding="utf-8")
-report = V7 / "v6_평가보고서.md"
-if report.exists():
-    (V7 / "v6_평가보고서.html").write_text(render(report.read_text(encoding="utf-8"), "v6 평가보고서"),
-                                         encoding="utf-8")
+for name, page_title in (("v6_평가보고서", "v6 평가보고서"), ("Paper29_강령대조메모", "Paper 29 강령 대조")):
+    src = V7 / f"{name}.md"
+    if src.exists():
+        (V7 / f"{name}.html").write_text(render(src.read_text(encoding="utf-8"), page_title), encoding="utf-8")
 print("docs built")
