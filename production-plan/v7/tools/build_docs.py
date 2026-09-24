@@ -28,14 +28,19 @@ def title(vid):
 parts = {
     "SEASONS": table(["시즌", "회차", "주차", "핵심 입구", "주요 홍보 이론"],
                      [[s["season"], s["episodes"], s["weeks"], s["entry"], s["theories"]] for s in cat["seasons"]]),
-    "EPISODES": table(["ID", "공개 제목 형식", "주홍보이론", "사례·비교·근거", "대표 학자·개념"],
+    "EPISODES": table(["ID", "공개 제목 형식", "주홍보이론", "사례·비교·근거", "대표 학자·개념", "사이론 v0.37 준거"],
                       [[v["id"], v["public_title"], v["theory_name"], v["case"],
-                        f"{v['primary_scholar']['name']} — {v['primary_scholar']['concept']} ({v['primary_scholar']['text']})"]
+                        f"{v['primary_scholar']['name']} — {v['primary_scholar']['concept']} ({v['primary_scholar']['text']})",
+                        "; ".join(x for x in (v.get("sai_case_ref", ""), v["primary_scholar"]["sai_chapter"]) if x) or "—"]
                        for v in main]),
-    "MITO": table(["ID", "제목", "미토 연결 지점"],
-                  [[vid, title(vid), by[vid]["mito_link"]] for vid in by if by[vid].get("mito_link")]),
-    "MINPA": table(["ID", "제목", "민파/패파 슬롯"],
-                   [[vid, title(vid), by[vid]["minpa_slot"]] for vid in by if by[vid].get("minpa_slot")]),
+    "MITOQ": table(["질문", "미토 프로토콜 원문 요지"], [[q, t] for q, t in cat["mito"]["protocol"].items()]),
+    "MITO": table(["ID", "제목", "프로토콜 질문", "연결 지점"],
+                  [[vid, title(vid), by[vid]["mito_link"]["protocol_q"], by[vid]["mito_link"]["point"]]
+                   for vid in by if by[vid].get("mito_link")]),
+    "OPENING": table(["ID", "제목", "사이 열기·패권 판정 슬롯"],
+                     [[vid, title(vid), by[vid]["opening_slot"]] for vid in by if by[vid].get("opening_slot")]),
+    "LEGACY": table(["ID", "제목", "기존 대본(Drive 대본 종합집)"],
+                    [[vid, title(vid), by[vid]["legacy_script"]] for vid in by if by[vid].get("legacy_script")]),
     "TIME": table(["ID", "제목", "재확인 내용"],
                   [[v["id"], title(v["id"]), v["time_sensitive"]]
                    for v in cat["videos"] if v.get("time_sensitive") and v["type"] != "쇼츠"]),

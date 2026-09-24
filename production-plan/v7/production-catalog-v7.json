@@ -1,6 +1,6 @@
 {
- "version": "7.0-evaluated",
- "basis": "v5 카탈로그 + v6 총괄기획 + v7 평가·보강(시즌 정합, 대표 학자, 미토·민파/패파 연결, 시점·법적 플래그)",
+ "version": "7.1-source-checked",
+ "basis": "v5 카탈로그 + v6 총괄기획 + 사이론 v0.37(저장소 claude/friendly-knuth-16ykal) + CLAUDE.md 작업 명령 v0.1 + Drive 원전(심업사상최강본, 쇠는 나무를 자를 수 없다, 유튜브 대본 종합집) 대조",
  "scope": "85 episodes unchanged",
  "scholar_lenses": {
   "사이론": {
@@ -108,10 +108,10 @@
   "wording_guard": "지적 미성숙은 학자 개인의 지능 평가가 아니라 문명사적 인식 토양의 한계를 뜻한다."
  },
  "mito_foundation": {
-  "status": "심업사상 문명전환 가설·원전 대조 필요",
+  "status": "심업사상 문명전환 가설 — 원전은 cat.mito.sources",
   "name": "미토(未土) — 자본주의 무한질주를 제어·전환하는 숙성의 관절",
   "diagnosis": "자기보존·확장·정당화 삼충동이 물질·의식·공정감각의 제어 없이 양의 되먹임을 이어가는 무한질주",
-  "two_conditions": "물질 조건과 의식 조건의 동시 충족 — 해당 원전 문구·논문을 회차별 확인 후 사용",
+  "two_conditions": "[확정 필요] v5의 '물질·의식 동시 충족' 2조건론은 확인한 원전에 없음",
   "institutional_response": [
    "노동시간",
    "AI 생산성",
@@ -180,6 +180,7 @@
    },
    "theory_promotion_sequence": "학자 소개→계승점→비판점→사이론의 보완→현실 사례 적용→반례/한계",
    "critique_status": "기획용 비교틀; 해당 학자의 전체 사상 평가 아님; 회차별 원전·연구문헌 검토 필요",
+   "legacy_script": "숏폼 EP.01 「Groupality가 뭔데?」(90초)",
    "legal_flags": []
   },
   {
@@ -235,8 +236,11 @@
     "name": "플라톤",
     "concept": "철인통치 — 좋은 통치자를 세우면 나라가 바로 선다는 발상",
     "text": "『국가』",
+    "sai_chapter": "1·2장(플라톤: 정지의 근본화)",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
+   "sai_case_ref": "검찰 — 구성원이 바뀌어도 이어지는 집격, 기소독점(1·2·3·6·11·12장, 1장 F2)",
+   "legacy_script": "EP.04 「검찰은 왜 검찰을 못 잡나」(24분)",
    "time_sensitive": "2025년 9월 정부조직법 개정으로 검찰청 폐지·공소청/중대범죄수사청 신설(1년 유예)이 의결된 것으로 파악됨. 촬영 시점에 '검찰총장' 직위가 존속하는지 확인하고, 제목을 '검찰의 이름과 조직이 바뀌면 검찰도 바뀌는가?' 등으로 대체할 준비.",
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토",
@@ -324,7 +328,7 @@
     2
    ],
    "old_version_relation": "v2의 이론 학습 목표를 재배치; 제목·사례·대본 신규 승인 필요",
-   "theory_name": "집격이론",
+   "theory_name": "집격론",
    "theory_memory_line": "누가 행동했는지와 어떤 방식이 이어지는지를 구별하자.",
    "promotion": "사례 전개 중 ‘심업사상의 집격론’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
@@ -333,12 +337,12 @@
    "parent": "",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "GROUP",
-   "lead_theory_name": "집격이론 — 조직화된 집단을 읽는 법",
+   "lead_theory_name": "집격론 — 조직화된 집단을 읽는 법",
    "lead_memory_line": "행위자·집단구조·집격을 구별하고, 지속되는 패턴과 책임의 주소를 본다.",
    "lead_clauses": "S-17 S-17a S-18 S-19 S-21 S-28",
    "editorial_order": "theory_hook→real_case→comparison/counterexample→Sai reading→theory recall→viewer question",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "집격이론: 보잉 사고, 작업자 실수만 보면 무엇을 놓칠까?",
+   "public_title": "집격론: 보잉 사고, 작업자 실수만 보면 무엇을 놓칠까?",
    "critical_scholar_lens": {
     "scholars": "푸코·부르디외·루만·리스트/페팃",
     "inherit": "권력·아비투스·사회체계·집단행위성 분석",
@@ -351,10 +355,12 @@
    "critique_status": "기획용 비교틀; 해당 학자의 전체 사상 평가 아님; 회차별 원전·연구문헌 검토 필요",
    "primary_scholar": {
     "name": "니클라스 루만",
-    "concept": "조직을 '결정의 연쇄'로 보는 체계이론",
-    "text": "『조직과 결정』(2000)",
+    "concept": "작동적 폐쇄 — 집단이 자기 논리로 돈다",
+    "text": "『사회적 체계들』(1984)",
+    "sai_chapter": "6장(루만: 소통 불가능성을 원리로 세움)",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
+   "sai_case_ref": "보잉 737 MAX — 木·金 과잉이 水를 눌러 응답이 무너짐, 안에서 묻힌 우려(5·12장). v6의 알래스카 1282편과 연결해 쓴다",
    "time_sensitive": "NTSB 최종 보고서 채택(2025년 추정) 이후의 FAA·보잉 후속 조치 확인.",
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
@@ -384,7 +390,7 @@
     2
    ],
    "old_version_relation": "v2의 이론 학습 목표를 재배치; 제목·사례·대본 신규 승인 필요",
-   "theory_name": "집격이론",
+   "theory_name": "집격론",
    "theory_memory_line": "누가 행동했는지와 어떤 방식이 이어지는지를 구별하자.",
    "promotion": "문제 한 장면 → 집격론 한 문장 → 모본 영상 연결",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
@@ -393,12 +399,12 @@
    "parent": "V02",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "GROUP",
-   "lead_theory_name": "집격이론 — 조직화된 집단을 읽는 법",
+   "lead_theory_name": "집격론 — 조직화된 집단을 읽는 법",
    "lead_memory_line": "행위자·집단구조·집격을 구별하고, 지속되는 패턴과 책임의 주소를 본다.",
    "lead_clauses": "S-17 S-17a S-18 S-19 S-21 S-28",
    "editorial_order": "real_question→theory_sentence→case_caveat→main_link",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "집격이론 — 실수한 사람을 찾으면 조사는 끝날까?",
+   "public_title": "집격론 — 실수한 사람을 찾으면 조사는 끝날까?",
    "critical_scholar_lens": {
     "scholars": "푸코·부르디외·루만·리스트/페팃",
     "inherit": "권력·아비투스·사회체계·집단행위성 분석",
@@ -436,7 +442,7 @@
    "source_status": "사례 후보·촬영 전 검증 필요",
    "reference_ids": [],
    "old_version_relation": "v2의 이론 학습 목표를 재배치; 제목·사례·대본 신규 승인 필요",
-   "theory_name": "집격이론",
+   "theory_name": "집격론",
    "theory_memory_line": "누가 행동했는지와 어떤 방식이 이어지는지를 구별하자.",
    "promotion": "사례 전개 중 ‘심업사상의 집격론’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
@@ -445,12 +451,12 @@
    "parent": "",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "GROUP",
-   "lead_theory_name": "집격이론 — 조직화된 집단을 읽는 법",
+   "lead_theory_name": "집격론 — 조직화된 집단을 읽는 법",
    "lead_memory_line": "행위자·집단구조·집격을 구별하고, 지속되는 패턴과 책임의 주소를 본다.",
    "lead_clauses": "S-17 S-17a S-18 S-19 S-21 S-28",
    "editorial_order": "theory_hook→real_case→comparison/counterexample→Sai reading→theory recall→viewer question",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "집격이론: OpenAI 이사회와 CEO, 회사의 주인은 누구인가?",
+   "public_title": "집격론: OpenAI 이사회와 CEO, 회사의 주인은 누구인가?",
    "critical_scholar_lens": {
     "scholars": "푸코·부르디외·루만·리스트/페팃",
     "inherit": "권력·아비투스·사회체계·집단행위성 분석",
@@ -465,6 +471,7 @@
     "name": "리스트/페팃",
     "concept": "집단행위자(group agent)의 성립 조건",
     "text": "『Group Agency』(2011)",
+    "sai_chapter": "11·17장(리스트·페팃: 행위자·구조·구성원의 사이를 묻지 않음)",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "time_sensitive": "OpenAI의 2025년 지배구조 개편(공익법인 전환 등) 이후 상태를 반영. 2023년 사건만으로 '현재 구조'를 설명하지 않음.",
@@ -495,7 +502,7 @@
    "source_status": "모본 사실·이론 승인 후 쇼츠 제작",
    "reference_ids": [],
    "old_version_relation": "v2의 이론 학습 목표를 재배치; 제목·사례·대본 신규 승인 필요",
-   "theory_name": "집격이론",
+   "theory_name": "집격론",
    "theory_memory_line": "누가 행동했는지와 어떤 방식이 이어지는지를 구별하자.",
    "promotion": "문제 한 장면 → 집격론 한 문장 → 모본 영상 연결",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
@@ -504,12 +511,12 @@
    "parent": "V03",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "GROUP",
-   "lead_theory_name": "집격이론 — 조직화된 집단을 읽는 법",
+   "lead_theory_name": "집격론 — 조직화된 집단을 읽는 법",
    "lead_memory_line": "행위자·집단구조·집격을 구별하고, 지속되는 패턴과 책임의 주소를 본다.",
    "lead_clauses": "S-17 S-17a S-18 S-19 S-21 S-28",
    "editorial_order": "real_question→theory_sentence→case_caveat→main_link",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "집격이론 — CEO보다 위에 있는 것은 누구인가?",
+   "public_title": "집격론 — CEO보다 위에 있는 것은 누구인가?",
    "critical_scholar_lens": {
     "scholars": "푸코·부르디외·루만·리스트/페팃",
     "inherit": "권력·아비투스·사회체계·집단행위성 분석",
@@ -579,6 +586,7 @@
     "name": "미셸 푸코",
     "concept": "규율권력 — 평가·수치·감시가 행동을 만든다",
     "text": "『감시와 처벌』(1975)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": [
@@ -689,6 +697,7 @@
     "name": "한스 켈젠",
     "concept": "법적 효력은 상위규범에서 나온다는 순수법학",
     "text": "『순수법학』(1934/1960)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": [
@@ -772,7 +781,7 @@
     4
    ],
    "old_version_relation": "v2의 이론 학습 목표를 재배치; 제목·사례·대본 신규 승인 필요",
-   "theory_name": "집격이론",
+   "theory_name": "집격론",
    "theory_memory_line": "누가 행동했는지와 어떤 방식이 이어지는지를 구별하자.",
    "promotion": "사례 전개 중 ‘심업사상의 집격론’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
@@ -781,12 +790,12 @@
    "parent": "",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "GROUP",
-   "lead_theory_name": "집격이론 — 조직화된 집단을 읽는 법",
+   "lead_theory_name": "집격론 — 조직화된 집단을 읽는 법",
    "lead_memory_line": "행위자·집단구조·집격을 구별하고, 지속되는 패턴과 책임의 주소를 본다.",
    "lead_clauses": "S-17 S-17a S-18 S-19 S-21 S-28",
    "editorial_order": "theory_hook→real_case→comparison/counterexample→Sai reading→theory recall→viewer question",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "집격이론: 검찰 조직을 바꾸면 반복도 끊어질까?",
+   "public_title": "집격론: 검찰 조직을 바꾸면 반복도 끊어질까?",
    "critical_scholar_lens": {
     "scholars": "푸코·부르디외·루만·리스트/페팃",
     "inherit": "권력·아비투스·사회체계·집단행위성 분석",
@@ -801,8 +810,11 @@
     "name": "피에르 부르디외",
     "concept": "아비투스 — 제도가 바뀌어도 몸에 밴 성향은 남는다",
     "text": "『실천이론 개요』(1972)",
+    "sai_chapter": "2장(부르디외: 구조·행위 사이에 이름을 주지 않음)",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
+   "sai_case_ref": "검찰 — 구조가 행위자를 만듦, 사건을 고르고 덮는 방식의 지속(1·2·3·6·11·12장)",
+   "legacy_script": "EP.04 「검찰은 왜 검찰을 못 잡나」(24분)",
    "time_sensitive": "검찰청 폐지·기능 이관의 시행 시점과 후속 입법 상태를 촬영일 기준으로 확인. 이 회차가 S2 핫이슈로 격상될 가능성이 큼.",
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
@@ -832,7 +844,7 @@
     4
    ],
    "old_version_relation": "v2의 이론 학습 목표를 재배치; 제목·사례·대본 신규 승인 필요",
-   "theory_name": "집격이론",
+   "theory_name": "집격론",
    "theory_memory_line": "누가 행동했는지와 어떤 방식이 이어지는지를 구별하자.",
    "promotion": "문제 한 장면 → 집격론 한 문장 → 모본 영상 연결",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
@@ -841,12 +853,12 @@
    "parent": "V06",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "GROUP",
-   "lead_theory_name": "집격이론 — 조직화된 집단을 읽는 법",
+   "lead_theory_name": "집격론 — 조직화된 집단을 읽는 법",
    "lead_memory_line": "행위자·집단구조·집격을 구별하고, 지속되는 패턴과 책임의 주소를 본다.",
    "lead_clauses": "S-17 S-17a S-18 S-19 S-21 S-28",
    "editorial_order": "real_question→theory_sentence→case_caveat→main_link",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "집격이론 — 간판을 바꾸면 조직도 바뀔까?",
+   "public_title": "집격론 — 간판을 바꾸면 조직도 바뀔까?",
    "critical_scholar_lens": {
     "scholars": "푸코·부르디외·루만·리스트/페팃",
     "inherit": "권력·아비투스·사회체계·집단행위성 분석",
@@ -913,6 +925,7 @@
     "name": "에마뉘엘 레비나스",
     "concept": "타자의 얼굴 앞에서 생기는 무한 책임",
     "text": "『전체성과 무한』(1961)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": [
@@ -1023,6 +1036,7 @@
     "name": "한나 아렌트",
     "concept": "사실적 진리와 정치적 의견의 긴장",
     "text": "「진리와 정치」(1967)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": [
@@ -1104,21 +1118,21 @@
    "source_status": "사례 후보·촬영 전 검증 필요",
    "reference_ids": [],
    "old_version_relation": "v2의 이론 학습 목표를 재배치; 제목·사례·대본 신규 승인 필요",
-   "theory_name": "상위레벨 기준점원칙(ULBP)",
+   "theory_name": "상위레벨 기준점(ULBP)",
    "theory_memory_line": "판단 범위를 넓히되, 그 안의 작은 피해를 지우지 말자.",
-   "promotion": "사례 전개 중 ‘심업사상의 상위레벨 기준점원칙(ULBP)’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
+   "promotion": "사례 전개 중 ‘심업사상의 상위레벨 기준점(ULBP)’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
    "release_gate": "원자료·사건시점·당사자 설명·반례·인용권리·저자 최종 검수 통과 전 게시 금지",
    "day": "수요일",
    "parent": "",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "ULBP",
-   "lead_theory_name": "상위레벨 기준점원칙(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
+   "lead_theory_name": "상위레벨 기준점(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
    "lead_memory_line": "상위는 더 강한 권력이 아니라 당사자와 영향을 함께 담는 더 넓은 판단 범위다.",
    "lead_clauses": "S-30",
    "editorial_order": "theory_hook→real_case→comparison/counterexample→Sai reading→theory recall→viewer question",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "상위레벨 기준점원칙(ULBP): 의료 갈등, 정부와 의사 사이에 환자는 어디 있나?",
+   "public_title": "상위레벨 기준점(ULBP): 의료 갈등, 정부와 의사 사이에 환자는 어디 있나?",
    "critical_scholar_lens": {
     "scholars": "칸트·롤스·공리주의 전통",
     "inherit": "보편성·공정성·더 넓은 판단 범위의 요구",
@@ -1133,9 +1147,10 @@
     "name": "존 롤스",
     "concept": "원초적 입장·최소수혜자 우선",
     "text": "『정의론』(1971)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "minpa_slot": "정부 대 의사 구도에서 환자·지역의 자리",
+   "opening_slot": "정부·의사 사이에서 환자의 자리 — 조정 못함과 조정 막음의 구별(18장)",
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -1162,21 +1177,21 @@
    "source_status": "모본 사실·이론 승인 후 쇼츠 제작",
    "reference_ids": [],
    "old_version_relation": "v2의 이론 학습 목표를 재배치; 제목·사례·대본 신규 승인 필요",
-   "theory_name": "상위레벨 기준점원칙(ULBP)",
+   "theory_name": "상위레벨 기준점(ULBP)",
    "theory_memory_line": "판단 범위를 넓히되, 그 안의 작은 피해를 지우지 말자.",
-   "promotion": "문제 한 장면 → 상위레벨 기준점원칙(ULBP) 한 문장 → 모본 영상 연결",
+   "promotion": "문제 한 장면 → 상위레벨 기준점(ULBP) 한 문장 → 모본 영상 연결",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
    "release_gate": "모본의 불확실성·당사자 반론 취지를 보존; 모본 승인 없으면 공개 보류",
    "day": "토요일",
    "parent": "V09",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "ULBP",
-   "lead_theory_name": "상위레벨 기준점원칙(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
+   "lead_theory_name": "상위레벨 기준점(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
    "lead_memory_line": "상위는 더 강한 권력이 아니라 당사자와 영향을 함께 담는 더 넓은 판단 범위다.",
    "lead_clauses": "S-30",
    "editorial_order": "real_question→theory_sentence→case_caveat→main_link",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "상위레벨 기준점원칙(ULBP) — 의료 논쟁의 빈 의자는 누구 것인가?",
+   "public_title": "상위레벨 기준점(ULBP) — 의료 논쟁의 빈 의자는 누구 것인가?",
    "critical_scholar_lens": {
     "scholars": "칸트·롤스·공리주의 전통",
     "inherit": "보편성·공정성·더 넓은 판단 범위의 요구",
@@ -1242,6 +1257,7 @@
     "name": "위르겐 하버마스",
     "concept": "이상적 담화 상황·의사소통 합리성",
     "text": "『의사소통행위이론』(1981)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": [
@@ -1403,9 +1419,14 @@
     "name": "카를 마르크스",
     "concept": "주식회사와 소유·경영의 분리",
     "text": "『자본』 3권 27장",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "고객자산의 확장과 정당화",
+   "sai_case_ref": "ESG 점수 — 하나의 가치로 잰 점수, 자기 보고 의존(5·15·16장)",
+   "mito_link": {
+    "protocol_q": "Q7",
+    "point": "스튜어드십·ESG가 자기 보고 점수에 머무는가(사이론 5장 ESG 단일 점수)"
+   },
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -1514,9 +1535,13 @@
     "name": "막스 베버",
     "concept": "계산 가능성과 형식적 합리화",
     "text": "『경제와 사회』(1922)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "등급이 만드는 자금의 양의 되먹임",
+   "mito_link": {
+    "protocol_q": "Q1",
+    "point": "등급이 과열 신호를 늦게 내는 구조"
+   },
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -1623,9 +1648,14 @@
     "name": "칼 폴라니",
     "concept": "시장의 자기조정 신화와 사회의 이중운동",
     "text": "『거대한 전환』(1944)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "대표회차 — 손실 이전과 무한질주의 제어 실패",
+   "sai_case_ref": "2008 세계 금융위기 — 책임의 자리가 비는 방식(서문 F1)",
+   "mito_link": {
+    "protocol_q": "Q1·Q2·Q3",
+    "point": "대표회차 — 손실 이전과 제어 실패, 냉각기로서의 침체"
+   },
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -1732,9 +1762,13 @@
     "name": "토머스 홉스",
     "concept": "문을 가진 주권자 — 질서와 복종의 교환",
     "text": "『리바이어던』(1651)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "플랫폼 수수료와 확장 충동",
+   "mito_link": {
+    "protocol_q": "Q5",
+    "point": "플랫폼 수수료 규제의 기준"
+   },
    "time_sensitive": "Epic v. Apple 후속 명령·항소, 각국 앱마켓 규제 상태 확인.",
    "legal_flags": [
     "진행 중 소송·절차 — 결론 암시 금지",
@@ -1845,9 +1879,13 @@
     "name": "피에르 부르디외",
     "concept": "취향은 사회적으로 구별짓는다",
     "text": "『구별짓기』(1979)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "주의(attention)의 무한 채굴",
+   "mito_link": {
+    "protocol_q": "Q6",
+    "point": "주의(attention) 지표가 성장 지표를 대신할 때"
+   },
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -1954,8 +1992,11 @@
     "name": "한나 아렌트",
     "concept": "판단의 위임과 사유의 중단",
     "text": "『예루살렘의 아이히만』(1963)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
+   "sai_case_ref": "생성형 인공지능 — 유용함 하나의 최적화, 회사를 다섯 축으로 묻기(4·5·14·15장)",
+   "legacy_script": "EP.03 「AI가 차별하면 누가 감옥 가나」(22분)",
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -2062,8 +2103,11 @@
     "name": "대니얼 카너먼",
     "concept": "빠른 사고·과신·보이는 것이 전부라는 착각",
     "text": "『생각에 관한 생각』(2011)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
+   "sai_case_ref": "생성형 인공지능 — 환각과 무기억(4·5장)",
+   "legacy_script": "EP.03 「AI가 차별하면 누가 감옥 가나」(22분)",
    "legal_flags": [
     "실명 개인 — 공적 역할 범위로 한정"
    ]
@@ -2170,6 +2214,7 @@
     "name": "로널드 드워킨",
     "concept": "어려운 사건과 해석으로서의 법",
     "text": "『법의 제국』(1986)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "time_sensitive": "NYT v. OpenAI·Microsoft 소송 진행 단계 확인. 진행 중 소송이므로 결론 암시 금지.",
@@ -2253,21 +2298,21 @@
    "source_status": "사례 후보·촬영 전 검증 필요",
    "reference_ids": [],
    "old_version_relation": "v2의 이론 학습 목표를 재배치; 제목·사례·대본 신규 승인 필요",
-   "theory_name": "상위레벨 기준점원칙(ULBP)",
+   "theory_name": "상위레벨 기준점(ULBP)",
    "theory_memory_line": "판단 범위를 넓히되, 그 안의 작은 피해를 지우지 말자.",
-   "promotion": "사례 전개 중 ‘심업사상의 상위레벨 기준점원칙(ULBP)’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
+   "promotion": "사례 전개 중 ‘심업사상의 상위레벨 기준점(ULBP)’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
    "release_gate": "원자료·사건시점·당사자 설명·반례·인용권리·저자 최종 검수 통과 전 게시 금지",
    "day": "수요일",
    "parent": "",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "ULBP",
-   "lead_theory_name": "상위레벨 기준점원칙(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
+   "lead_theory_name": "상위레벨 기준점(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
    "lead_memory_line": "상위는 더 강한 권력이 아니라 당사자와 영향을 함께 담는 더 넓은 판단 범위다.",
    "lead_clauses": "S-30",
    "editorial_order": "theory_hook→real_case→comparison/counterexample→Sai reading→theory recall→viewer question",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "상위레벨 기준점원칙(ULBP): AI 데이터센터의 전기와 물은 누구의 것인가?",
+   "public_title": "상위레벨 기준점(ULBP): AI 데이터센터의 전기와 물은 누구의 것인가?",
    "critical_scholar_lens": {
     "scholars": "칸트·롤스·공리주의 전통",
     "inherit": "보편성·공정성·더 넓은 판단 범위의 요구",
@@ -2282,9 +2327,13 @@
     "name": "공리주의 전통(벤담·밀)",
     "concept": "총합 효용과 소수 피해의 문제",
     "text": "벤담 『도덕과 입법의 원리 서설』(1789)·밀 『공리주의』(1861)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "AI 생산성과 전력·물의 물질 조건",
+   "mito_link": {
+    "protocol_q": "Q6",
+    "point": "AI 생산성과 전력·물의 물질 조건"
+   },
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -2311,21 +2360,21 @@
    "source_status": "모본 사실·이론 승인 후 쇼츠 제작",
    "reference_ids": [],
    "old_version_relation": "v2의 이론 학습 목표를 재배치; 제목·사례·대본 신규 승인 필요",
-   "theory_name": "상위레벨 기준점원칙(ULBP)",
+   "theory_name": "상위레벨 기준점(ULBP)",
    "theory_memory_line": "판단 범위를 넓히되, 그 안의 작은 피해를 지우지 말자.",
-   "promotion": "문제 한 장면 → 상위레벨 기준점원칙(ULBP) 한 문장 → 모본 영상 연결",
+   "promotion": "문제 한 장면 → 상위레벨 기준점(ULBP) 한 문장 → 모본 영상 연결",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
    "release_gate": "모본의 불확실성·당사자 반론 취지를 보존; 모본 승인 없으면 공개 보류",
    "day": "토요일",
    "parent": "V19",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "ULBP",
-   "lead_theory_name": "상위레벨 기준점원칙(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
+   "lead_theory_name": "상위레벨 기준점(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
    "lead_memory_line": "상위는 더 강한 권력이 아니라 당사자와 영향을 함께 담는 더 넓은 판단 범위다.",
    "lead_clauses": "S-30",
    "editorial_order": "real_question→theory_sentence→case_caveat→main_link",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "상위레벨 기준점원칙(ULBP) — AI의 편리함 뒤의 지역 비용",
+   "public_title": "상위레벨 기준점(ULBP) — AI의 편리함 뒤의 지역 비용",
    "critical_scholar_lens": {
     "scholars": "칸트·롤스·공리주의 전통",
     "inherit": "보편성·공정성·더 넓은 판단 범위의 요구",
@@ -2391,8 +2440,10 @@
     "name": "이마누엘 칸트",
     "concept": "준칙의 보편화 — 선언과 행위의 일치",
     "text": "『도덕형이상학 정초』(1785)",
+    "sai_chapter": "7장(칸트: 형식이 닫혀 있다는 것)",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
+   "legacy_script": "대담 EP.02 「AI에게 책임을 물을 수 있는가」",
    "time_sensitive": "OpenAI Preparedness Framework의 촬영 시점 버전 번호와 개정일 명시.",
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
@@ -2496,6 +2547,7 @@
    },
    "theory_promotion_sequence": "학자 소개→계승점→비판점→사이론의 보완→현실 사례 적용→반례/한계",
    "critique_status": "기획용 비교틀; 해당 학자의 전체 사상 평가 아님; 회차별 원전·연구문헌 검토 필요",
+   "sai_case_ref": "5중 결합 — 이름 붙기 전에 이미 하나로 작동, 멋의 패권의 현재형(6·13·18·19장)",
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -2551,9 +2603,10 @@
     "name": "안토니오 그람시",
     "concept": "헤게모니 — 동의를 만드는 상식의 틀",
     "text": "『옥중수고』(1929–35)",
+    "sai_chapter": "18장(그람시: 무엇이 장악되는가를 말하지 않음)",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "minpa_slot": "같은 발표를 다르게 읽는 두 진영",
+   "opening_slot": "같은 발표를 다르게 읽는 두 보도 — 표방과 경계의 어긋남(15·18장)",
    "legal_flags": [
     "저작권 — 기사·영상 인용 범위 검토",
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
@@ -2662,6 +2715,7 @@
     "name": "기 드보르",
     "concept": "스펙터클 — 이미지가 매개하는 사회관계",
     "text": "『스펙터클의 사회』(1967)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": [
@@ -2770,9 +2824,13 @@
     "name": "피에르 부르디외",
     "concept": "학술장과 상징자본",
     "text": "『호모 아카데미쿠스』(1984)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "지식 공유와 소유의 재설계",
+   "mito_link": {
+    "protocol_q": "Q4",
+    "point": "초과 이익과 지식 공유"
+   },
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -2879,6 +2937,7 @@
     "name": "한스게오르크 가다머",
     "concept": "선입견과 지평 융합 — 이해는 수정된다",
     "text": "『진리와 방법』(1960)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": [
@@ -2989,6 +3048,7 @@
     "name": "마셜 맥루언",
     "concept": "매체가 곧 메시지",
     "text": "『미디어의 이해』(1964)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": [
@@ -3101,6 +3161,7 @@
     "name": "막스 베버",
     "concept": "합법적 지배 — 합법성이 정당성을 대신할 때",
     "text": "『경제와 사회』(1922)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": [
@@ -3213,9 +3274,13 @@
     "name": "H. L. A. 하트",
     "concept": "1차 규칙과 2차 규칙(승인·변경·재판)",
     "text": "『법의 개념』(1961)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "외형 확장 경쟁과 정산 구조",
+   "mito_link": {
+    "protocol_q": "Q5",
+    "point": "외형 확장 경쟁과 정산 구조"
+   },
    "time_sensitive": "티몬·위메프 회생·인수·파산 절차의 최신 단계 확인.",
    "legal_flags": [
     "피해자·유족 보호(재난보도준칙 준용, 동의·익명화)",
@@ -3299,21 +3364,21 @@
    "source_status": "사례 후보·촬영 전 검증 필요",
    "reference_ids": [],
    "old_version_relation": "v2 이론 학습 목표의 사례형 재기획; 별도 승인 필요",
-   "theory_name": "상위레벨 기준점원칙(ULBP)",
+   "theory_name": "상위레벨 기준점(ULBP)",
    "theory_memory_line": "판단 범위를 넓히되, 그 안의 작은 피해를 지우지 말자.",
-   "promotion": "사례 전개 중 ‘심업사상의 상위레벨 기준점원칙(ULBP)’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
+   "promotion": "사례 전개 중 ‘심업사상의 상위레벨 기준점(ULBP)’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
    "release_gate": "원자료·사건시점·당사자 설명·반례·인용권리·저자 최종 검수 통과 전 게시 금지",
    "day": "수요일",
    "parent": "",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "ULBP",
-   "lead_theory_name": "상위레벨 기준점원칙(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
+   "lead_theory_name": "상위레벨 기준점(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
    "lead_memory_line": "상위는 더 강한 권력이 아니라 당사자와 영향을 함께 담는 더 넓은 판단 범위다.",
    "lead_clauses": "S-30",
    "editorial_order": "theory_hook→real_case→comparison/counterexample→Sai reading→theory recall→viewer question",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "상위레벨 기준점원칙(ULBP): 세월호 이후, 개인 처벌과 조직 개선은 어떻게 다른가?",
+   "public_title": "상위레벨 기준점(ULBP): 세월호 이후, 개인 처벌과 조직 개선은 어떻게 다른가?",
    "critical_scholar_lens": {
     "scholars": "칸트·롤스·공리주의 전통",
     "inherit": "보편성·공정성·더 넓은 판단 범위의 요구",
@@ -3325,11 +3390,14 @@
    "theory_promotion_sequence": "학자 소개→계승점→비판점→사이론의 보완→현실 사례 적용→반례/한계",
    "critique_status": "기획용 비교틀; 해당 학자의 전체 사상 평가 아님; 회차별 원전·연구문헌 검토 필요",
    "primary_scholar": {
-    "name": "이마누엘 칸트",
-    "concept": "응보로서의 형벌과 제도 개선의 구별",
-    "text": "『도덕형이상학』 법론(1797)",
+    "name": "카를 야스퍼스",
+    "concept": "네 가지 죄 — 형사·정치·도덕·형이상학적 책임의 구별",
+    "text": "『죄의 문제』(1946)",
+    "sai_chapter": "17장(야스퍼스: 개인과 전체 사이를 말하지 않음)",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
+   "sai_case_ref": "세월호 — 사건은 세 시간이 만나는 관측선, 가족협의회, 증언집(4·14장)",
+   "legacy_script": "EP.01 「세월호 10년, 왜 아무도 책임지지 않았나」(20분), 대담 EP.01 세월호 유가족",
    "legal_flags": [
     "피해자·유족 보호(재난보도준칙 준용, 동의·익명화)",
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
@@ -3357,21 +3425,21 @@
    "source_status": "모본 사실·이론 승인 후 쇼츠 제작",
    "reference_ids": [],
    "old_version_relation": "v2 이론 학습 목표의 사례형 재기획; 별도 승인 필요",
-   "theory_name": "상위레벨 기준점원칙(ULBP)",
+   "theory_name": "상위레벨 기준점(ULBP)",
    "theory_memory_line": "판단 범위를 넓히되, 그 안의 작은 피해를 지우지 말자.",
-   "promotion": "문제 한 장면 → 상위레벨 기준점원칙(ULBP) 한 문장 → 모본 영상 연결",
+   "promotion": "문제 한 장면 → 상위레벨 기준점(ULBP) 한 문장 → 모본 영상 연결",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
    "release_gate": "모본의 불확실성·당사자 반론 취지를 보존; 모본 승인 없으면 공개 보류",
    "day": "토요일",
    "parent": "V28",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "ULBP",
-   "lead_theory_name": "상위레벨 기준점원칙(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
+   "lead_theory_name": "상위레벨 기준점(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
    "lead_memory_line": "상위는 더 강한 권력이 아니라 당사자와 영향을 함께 담는 더 넓은 판단 범위다.",
    "lead_clauses": "S-30",
    "editorial_order": "real_question→theory_sentence→case_caveat→main_link",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "상위레벨 기준점원칙(ULBP) — 책임을 묻는 것과 반복을 막는 것",
+   "public_title": "상위레벨 기준점(ULBP) — 책임을 묻는 것과 반복을 막는 것",
    "critical_scholar_lens": {
     "scholars": "칸트·롤스·공리주의 전통",
     "inherit": "보편성·공정성·더 넓은 판단 범위의 요구",
@@ -3409,21 +3477,21 @@
    "source_status": "사례 후보·촬영 전 검증 필요",
    "reference_ids": [],
    "old_version_relation": "v2 이론 학습 목표의 사례형 재기획; 별도 승인 필요",
-   "theory_name": "상위레벨 기준점원칙(ULBP)",
+   "theory_name": "상위레벨 기준점(ULBP)",
    "theory_memory_line": "판단 범위를 넓히되, 그 안의 작은 피해를 지우지 말자.",
-   "promotion": "사례 전개 중 ‘심업사상의 상위레벨 기준점원칙(ULBP)’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
+   "promotion": "사례 전개 중 ‘심업사상의 상위레벨 기준점(ULBP)’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
    "release_gate": "원자료·사건시점·당사자 설명·반례·인용권리·저자 최종 검수 통과 전 게시 금지",
    "day": "수요일",
    "parent": "",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "ULBP",
-   "lead_theory_name": "상위레벨 기준점원칙(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
+   "lead_theory_name": "상위레벨 기준점(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
    "lead_memory_line": "상위는 더 강한 권력이 아니라 당사자와 영향을 함께 담는 더 넓은 판단 범위다.",
    "lead_clauses": "S-30",
    "editorial_order": "theory_hook→real_case→comparison/counterexample→Sai reading→theory recall→viewer question",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "상위레벨 기준점원칙(ULBP): 옛 회사가 사라지면 오염의 책임도 사라질까?",
+   "public_title": "상위레벨 기준점(ULBP): 옛 회사가 사라지면 오염의 책임도 사라질까?",
    "critical_scholar_lens": {
     "scholars": "칸트·롤스·공리주의 전통",
     "inherit": "보편성·공정성·더 넓은 판단 범위의 요구",
@@ -3438,9 +3506,9 @@
     "name": "존 롤스",
     "concept": "세대 간 정의 — 정의로운 저축 원칙",
     "text": "『정의론』(1971) §44",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "성장의 비용을 미래에 넘기는 구조",
    "legal_flags": [
     "피해자·유족 보호(재난보도준칙 준용, 동의·익명화)"
    ]
@@ -3467,21 +3535,21 @@
    "source_status": "모본 사실·이론 승인 후 쇼츠 제작",
    "reference_ids": [],
    "old_version_relation": "v2 이론 학습 목표의 사례형 재기획; 별도 승인 필요",
-   "theory_name": "상위레벨 기준점원칙(ULBP)",
+   "theory_name": "상위레벨 기준점(ULBP)",
    "theory_memory_line": "판단 범위를 넓히되, 그 안의 작은 피해를 지우지 말자.",
-   "promotion": "문제 한 장면 → 상위레벨 기준점원칙(ULBP) 한 문장 → 모본 영상 연결",
+   "promotion": "문제 한 장면 → 상위레벨 기준점(ULBP) 한 문장 → 모본 영상 연결",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
    "release_gate": "모본의 불확실성·당사자 반론 취지를 보존; 모본 승인 없으면 공개 보류",
    "day": "토요일",
    "parent": "V29",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "ULBP",
-   "lead_theory_name": "상위레벨 기준점원칙(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
+   "lead_theory_name": "상위레벨 기준점(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
    "lead_memory_line": "상위는 더 강한 권력이 아니라 당사자와 영향을 함께 담는 더 넓은 판단 범위다.",
    "lead_clauses": "S-30",
    "editorial_order": "real_question→theory_sentence→case_caveat→main_link",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "상위레벨 기준점원칙(ULBP) — 회사보다 오래 남는 피해",
+   "public_title": "상위레벨 기준점(ULBP) — 회사보다 오래 남는 피해",
    "critical_scholar_lens": {
     "scholars": "칸트·롤스·공리주의 전통",
     "inherit": "보편성·공정성·더 넓은 판단 범위의 요구",
@@ -3518,7 +3586,7 @@
    "source_status": "사례 후보·촬영 전 검증 필요",
    "reference_ids": [],
    "old_version_relation": "v2 이론 학습 목표의 사례형 재기획; 별도 승인 필요",
-   "theory_name": "집격이론",
+   "theory_name": "집격론",
    "theory_memory_line": "누가 행동했는지와 어떤 방식이 이어지는지를 구별하자.",
    "promotion": "사례 전개 중 ‘심업사상의 집격론’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
@@ -3527,12 +3595,12 @@
    "parent": "",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "GROUP",
-   "lead_theory_name": "집격이론 — 조직화된 집단을 읽는 법",
+   "lead_theory_name": "집격론 — 조직화된 집단을 읽는 법",
    "lead_memory_line": "행위자·집단구조·집격을 구별하고, 지속되는 패턴과 책임의 주소를 본다.",
    "lead_clauses": "S-17 S-17a S-18 S-19 S-21 S-28",
    "editorial_order": "theory_hook→real_case→comparison/counterexample→Sai reading→theory recall→viewer question",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "집격이론: 같은 재난을 두고 책임의 지도가 왜 다른가?",
+   "public_title": "집격론: 같은 재난을 두고 책임의 지도가 왜 다른가?",
    "critical_scholar_lens": {
     "scholars": "푸코·부르디외·루만·리스트/페팃",
     "inherit": "권력·아비투스·사회체계·집단행위성 분석",
@@ -3547,6 +3615,7 @@
     "name": "미셸 푸코",
     "concept": "통치성 — 인구·안전을 관리하는 권력",
     "text": "『안전, 영토, 인구』(1977–78 강의)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "time_sensitive": "이태원 참사 형사재판(항소심 포함)·특별조사 진행 단계 확인.",
@@ -3578,7 +3647,7 @@
    "source_status": "모본 사실·이론 승인 후 쇼츠 제작",
    "reference_ids": [],
    "old_version_relation": "v2 이론 학습 목표의 사례형 재기획; 별도 승인 필요",
-   "theory_name": "집격이론",
+   "theory_name": "집격론",
    "theory_memory_line": "누가 행동했는지와 어떤 방식이 이어지는지를 구별하자.",
    "promotion": "문제 한 장면 → 집격론 한 문장 → 모본 영상 연결",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
@@ -3587,12 +3656,12 @@
    "parent": "V30",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "GROUP",
-   "lead_theory_name": "집격이론 — 조직화된 집단을 읽는 법",
+   "lead_theory_name": "집격론 — 조직화된 집단을 읽는 법",
    "lead_memory_line": "행위자·집단구조·집격을 구별하고, 지속되는 패턴과 책임의 주소를 본다.",
    "lead_clauses": "S-17 S-17a S-18 S-19 S-21 S-28",
    "editorial_order": "real_question→theory_sentence→case_caveat→main_link",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "집격이론 — 책임의 지도에서 빠진 자리는 어디인가?",
+   "public_title": "집격론 — 책임의 지도에서 빠진 자리는 어디인가?",
    "critical_scholar_lens": {
     "scholars": "푸코·부르디외·루만·리스트/페팃",
     "inherit": "권력·아비투스·사회체계·집단행위성 분석",
@@ -3656,7 +3725,7 @@
    },
    "theory_promotion_sequence": "학자 소개→계승점→비판점→사이론의 보완→현실 사례 적용→반례/한계",
    "critique_status": "기획용 비교틀; 해당 학자의 전체 사상 평가 아님; 회차별 원전·연구문헌 검토 필요",
-   "minpa_slot": "어려운 반론 — 진영 구분 자체에 대한 비판",
+   "opening_slot": "어려운 반론 — 저항과 지배를 같은 아귀다툼으로 묶지 않기(18장)",
    "legal_flags": [
     "피해자·유족 보호(재난보도준칙 준용, 동의·익명화)",
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
@@ -3713,6 +3782,7 @@
     "name": "위르겐 하버마스",
     "concept": "공론장과 비판적 공중",
     "text": "『공론장의 구조변동』(1962)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": []
@@ -3817,6 +3887,7 @@
     "name": "자크 데리다",
     "concept": "법과 정의의 간극",
     "text": "「법의 힘」(1990)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "time_sensitive": "Meta의 2025년 콘텐츠 정책·팩트체크 제도 변경을 비교 자료로 추가 검토.",
@@ -3927,9 +3998,13 @@
     "name": "막스 베버",
     "concept": "윤리와 자본주의 정신의 결합",
     "text": "『프로테스탄트 윤리와 자본주의 정신』(1904–05)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "소유구조 전환이라는 제도 응답",
+   "mito_link": {
+    "protocol_q": "Q4",
+    "point": "소유구조 전환이라는 제도 응답"
+   },
    "legal_flags": []
   },
   {
@@ -4032,9 +4107,9 @@
     "name": "이마누엘 칸트",
     "concept": "목적의 왕국 — 사람을 수단으로만 대하지 않는 공동체",
     "text": "『도덕형이상학 정초』(1785)",
+    "sai_chapter": "7장(칸트)",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "노동·소유의 공동 설계",
    "legal_flags": []
   },
   {
@@ -4108,21 +4183,21 @@
    "source_status": "사례 후보·촬영 전 검증 필요",
    "reference_ids": [],
    "old_version_relation": "v2 이론 학습 목표의 사례형 재기획; 별도 승인 필요",
-   "theory_name": "상위레벨 기준점원칙(ULBP)",
+   "theory_name": "상위레벨 기준점(ULBP)",
    "theory_memory_line": "판단 범위를 넓히되, 그 안의 작은 피해를 지우지 말자.",
-   "promotion": "사례 전개 중 ‘심업사상의 상위레벨 기준점원칙(ULBP)’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
+   "promotion": "사례 전개 중 ‘심업사상의 상위레벨 기준점(ULBP)’ 명시 → 정의·질문 카드 → 사례로 재설명 → 마지막 기억 문장 → 사이트 해당 이론 설명/원문으로 연결(공개 URL 검증 후)",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
    "release_gate": "원자료·사건시점·당사자 설명·반례·인용권리·저자 최종 검수 통과 전 게시 금지",
    "day": "수요일",
    "parent": "",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "ULBP",
-   "lead_theory_name": "상위레벨 기준점원칙(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
+   "lead_theory_name": "상위레벨 기준점(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
    "lead_memory_line": "상위는 더 강한 권력이 아니라 당사자와 영향을 함께 담는 더 넓은 판단 범위다.",
    "lead_clauses": "S-30",
    "editorial_order": "theory_hook→real_case→comparison/counterexample→Sai reading→theory recall→viewer question",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "상위레벨 기준점원칙(ULBP): 우리 동네 예산, 주민이 정말 바꿀 수 있나?",
+   "public_title": "상위레벨 기준점(ULBP): 우리 동네 예산, 주민이 정말 바꿀 수 있나?",
    "critical_scholar_lens": {
     "scholars": "칸트·롤스·공리주의 전통",
     "inherit": "보편성·공정성·더 넓은 판단 범위의 요구",
@@ -4137,6 +4212,7 @@
     "name": "존 롤스",
     "concept": "공적 이성과 시민의 정당화",
     "text": "『정치적 자유주의』(1993)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
    "legal_flags": []
@@ -4163,21 +4239,21 @@
    "source_status": "모본 사실·이론 승인 후 쇼츠 제작",
    "reference_ids": [],
    "old_version_relation": "v2 이론 학습 목표의 사례형 재기획; 별도 승인 필요",
-   "theory_name": "상위레벨 기준점원칙(ULBP)",
+   "theory_name": "상위레벨 기준점(ULBP)",
    "theory_memory_line": "판단 범위를 넓히되, 그 안의 작은 피해를 지우지 말자.",
-   "promotion": "문제 한 장면 → 상위레벨 기준점원칙(ULBP) 한 문장 → 모본 영상 연결",
+   "promotion": "문제 한 장면 → 상위레벨 기준점(ULBP) 한 문장 → 모본 영상 연결",
    "falsification": "비교 사례에서 실제로 응답·수정·선택권이 보장되거나 제시한 연결이 자료로 확인되지 않으면, 폐쇄·지배라는 해석의 범위를 줄이거나 유보한다. 다른 조건의 영향과 반론을 함께 표시한다.",
    "release_gate": "모본의 불확실성·당사자 반론 취지를 보존; 모본 승인 없으면 공개 보류",
    "day": "토요일",
    "parent": "V35",
    "publishing_status": "기획안; 사실검증·대본·영상·공개 미완료",
    "lead_theory_code": "ULBP",
-   "lead_theory_name": "상위레벨 기준점원칙(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
+   "lead_theory_name": "상위레벨 기준점(ULBP) — 더 넓게 보되 작은 피해를 지우지 않는 기준",
    "lead_memory_line": "상위는 더 강한 권력이 아니라 당사자와 영향을 함께 담는 더 넓은 판단 범위다.",
    "lead_clauses": "S-30",
    "editorial_order": "real_question→theory_sentence→case_caveat→main_link",
    "publisher_note": "주제는 이론을 먼저 홍보하고, 사례는 이론의 작동을 보여주는 증거·적용·반례로 사용한다.",
-   "public_title": "상위레벨 기준점원칙(ULBP) — 참여했다는 것과 결정에 영향을 준다는 것",
+   "public_title": "상위레벨 기준점(ULBP) — 참여했다는 것과 결정에 영향을 준다는 것",
    "critical_scholar_lens": {
     "scholars": "칸트·롤스·공리주의 전통",
     "inherit": "보편성·공정성·더 넓은 판단 범위의 요구",
@@ -4241,8 +4317,10 @@
     "name": "마르틴 하이데거",
     "concept": "시간성 — 존재는 시간 속에서 이해된다",
     "text": "『존재와 시간』(1927)",
+    "sai_chapter": "4장(삼중시간: 베르그송·후설은 사회의 시간에 이름을 주지 않음)",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
+   "sai_case_ref": "삼중시간 — 사건은 세 시간의 관측선(4장)",
    "legal_flags": [
     "피해자·유족 보호(재난보도준칙 준용, 동의·익명화)"
    ]
@@ -4349,9 +4427,10 @@
     "name": "파르메니데스",
     "concept": "있음/없음의 이분 — 안이냐 밖이냐",
     "text": "단편 B8",
+    "sai_chapter": "2장(파르메니데스: 정지를 운동보다 앞세움)",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "minpa_slot": "잔류·탈퇴 이후 함께 사는 제도",
+   "opening_slot": "잔류·탈퇴 이후의 제도 — 이긴 뒤 조건을 열어 두는가(18·19장)",
    "legal_flags": []
   },
   {
@@ -4456,8 +4535,10 @@
     "name": "한나 아렌트",
     "concept": "악의 평범성과 판단하는 개인",
     "text": "『예루살렘의 아이히만』(1963)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
+   "sai_case_ref": "보잉 737 MAX의 안에서 묻힌 우려, 내부고발자 보호(12·17·19장)",
    "legal_flags": [
     "실명 개인 — 공적 역할 범위로 한정",
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
@@ -4568,9 +4649,10 @@
     "name": "위르겐 하버마스",
     "concept": "타당성 주장과 비판 가능성",
     "text": "『사실성과 타당성』(1992)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "minpa_slot": "반론을 읽으면 진영 구도가 어떻게 바뀌는가",
+   "opening_slot": "반론을 읽으면 무엇이 다시 열리는가 — 응답·수정·조건 재설정(S-33)",
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -4677,9 +4759,13 @@
     "name": "르네 데카르트",
     "concept": "분해·분석의 방법 — 나누면 보이는 것과 사라지는 것",
     "text": "『방법서설』(1637)",
+    "sai_chapter": "",
     "status": "기획 제안; 원전 대조 전 대본 확정 금지"
    },
-   "mito_link": "세 사례를 관통하는 삼충동",
+   "mito_link": {
+    "protocol_q": "Q6",
+    "point": "세 사례를 관통하는 삼충동(자기보존·확장·정당화)"
+   },
    "legal_flags": [
     "명예훼손(형법 307·310조, 정보통신망법 70조) 검토"
    ]
@@ -4781,8 +4867,11 @@
    },
    "theory_promotion_sequence": "학자 소개→계승점→비판점→사이론의 보완→현실 사례 적용→반례/한계",
    "critique_status": "기획용 비교틀; 해당 학자의 전체 사상 평가 아님; 회차별 원전·연구문헌 검토 필요",
-   "mito_link": "결산 — 미토 2조건론의 원전 대조 결과",
-   "minpa_slot": "결산 — 민파/패파 프레임 정식 소개",
+   "mito_link": {
+    "protocol_q": "Q1–Q7",
+    "point": "결산 — 미토 프로토콜 7대 질문과 사이론 5장 4절"
+   },
+   "opening_slot": "결산 — 민심주의 시대·응답사회·품격(19장), CG/HG 판정",
    "legal_flags": []
   }
  ],
@@ -4792,21 +4881,21 @@
    "episodes": "V01–V05",
    "weeks": "W03–W07",
    "entry": "검찰·보잉·OpenAI·웰스파고·플랫폼 약관",
-   "theories": "사이론·집격이론·PISM·비법"
+   "theories": "사이론·집격론·PISM·비법"
   },
   {
    "season": "S2",
    "episodes": "V06–V10",
    "weeks": "W09–W13",
    "entry": "검찰 개편·종교조직·폭스뉴스·의료갈등·배달 상생",
-   "theories": "집격이론·외장도덕·ULBP·회통주의"
+   "theories": "집격론·외장도덕·ULBP·회통주의"
   },
   {
    "season": "S3",
    "episodes": "V11–V15",
    "weeks": "W15–W19",
    "entry": "블랙록·신용평가·은행위기·앱스토어·추천 알고리즘",
-   "theories": "CFG·힘·돈·멋 (미토 연결)"
+   "theories": "CFG·힘·돈·멋 (미토 프로토콜 연결)"
   },
   {
    "season": "S4",
@@ -4827,7 +4916,7 @@
    "episodes": "V26–V30",
    "weeks": "W33–W37",
    "entry": "가습기살균제·티메프·세월호·러브캐널·이태원",
-   "theories": "비법·ULBP·집격이론 (피해자 보호 최고등급)"
+   "theories": "비법·ULBP·집격론 (피해자 보호 최고등급)"
   },
   {
    "season": "S7",
@@ -4841,7 +4930,7 @@
    "episodes": "V36–V40",
    "weeks": "W45–W49",
    "entry": "홍수와 시간·브렉시트·내부고발·반론·재방문",
-   "theories": "사이론·PISM·혹세무민·민파/패파 결산"
+   "theories": "사이론·PISM·혹세무민 (민심주의 시대·사이 열기 결산)"
   }
  ],
  "schedule": {
@@ -4866,24 +4955,47 @@
   "note": "v6 기획서의 'W51–52 결산'은 카탈로그(VX04=W50)와 달랐다. v7은 W50 결산, W51–52를 정정·반론·지연 회차 흡수용 예비주로 둔다."
  },
  "reference_registry": {
-  "status": "v5 원본에 reference_ids(1–4)가 가리키는 참고문헌 표가 없음 — 원표 복원 필요",
-  "ids_used": [
-   1,
-   2,
-   3,
-   4
-  ]
+  "status": "v5 원표 없음. 사용 패턴(1=V11, 2=V02·V38, 3=V04, 4=V01·V06)으로 추정 복원 — 원문 확인 필요",
+  "entries": {
+   "1": "BlackRock Investment Stewardship 연례 보고서·의결권 행사 공개 자료",
+   "2": "NTSB 알래스카항공 1282편 조사 자료, Ed Pierson 미국 하원 교통기반시설위원회 증언(2019)",
+   "3": "CFPB의 Wells Fargo Bank 동의명령(2016)",
+   "4": "유우성 사건 보복기소 공소권 남용 대법원 판결(2021) 및 국정원 증거 조작 관련 판결"
+  }
+ },
+ "mito": {
+  "sources": [
+   "「심업사상최강본」 3부 10장 「중앙 토의 응답 작용」·11장 「미토·축토의 전환 구조」",
+   "『쇠(AI)는 나무(인간)를 자를 수 없다』 「미토(未土) 프로토콜: 자본주의 제어를 위한 7대 정책 질문」",
+   "사이론 v0.37 5장 4절(미토·축토는 이행 사이의 오행적 표현), 부록 G 힘·돈·멋 문명론의 핵심어 미토론"
+  ],
+  "memory_line": "미토는 질주를 멈추게 하고, 축토는 단절을 이어준다.",
+  "protocol": {
+   "Q1": "경제 심장 박동의 강제 중단 기준(사회적 과열 지수) — 물극필반",
+   "Q2": "경기 침체를 '냉각기'로 정의할 수 있는가 — 실패의 재정의",
+   "Q3": "양적 완화의 영구 중단 선언이 필요한가 — 화기 수렴",
+   "Q4": "기업 유보금의 사회 환원 의무화 — 토생금 교량",
+   "Q5": "핀셋 규제의 윤리적 기준 — 현침과 조율",
+   "Q6": "국가 평가 지표를 GDP에서 국민행복지수로 — 맛이 드는 경제",
+   "Q7": "ESG를 생존 필수 조건으로 — 토의 필터링"
+  },
+  "two_conditions": "[확정 필요] v5의 '물질·의식 동시 충족' 2조건론은 확인한 원전에 없음",
+  "caution": "오행은 세계의 실제 구조가 아니라 운행을 읽는 문법이다(사이론 5장 5절). 미토를 경제 예측식이나 자동 진보 법칙으로 쓰지 않는다."
  },
  "minpa_paepa": {
-  "status": "정의 미제공",
-  "note": "제공 자료에 민파/패파 정의가 없음. 저자 정의·용어표 확정 후 대본 반영.",
-  "slots": {
-   "V09": "정부 대 의사 구도에서 환자·지역의 자리",
-   "V21": "같은 발표를 다르게 읽는 두 진영",
-   "V37": "잔류·탈퇴 이후 함께 사는 제도",
-   "V39": "반론을 읽으면 진영 구도가 어떻게 바뀌는가",
-   "VX03": "어려운 반론 — 진영 구분 자체에 대한 비판",
-   "VX04": "결산 — 민파/패파 프레임 정식 소개"
+  "status": "[신규·확정 필요]",
+  "note": "[신규·확정 필요] 민파/패파는 강령 S-01~S-37·사이론 v0.37·Drive 원전 어디에도 없다. 사이론의 대응 어휘는 민심주의 시대/패권의 시대(18·19장)와 CG/HG다. 사람·집단을 두 파로 가르는 이름으로 쓰면 CLAUDE.md 3절(HG/CG로만 표시)·5절(저항과 지배를 같은 아귀다툼으로 묶지 말라)과 충돌할 수 있으므로, 저자가 재확인하면 강령 개정안으로 기록한 뒤 사용한다.",
+  "opening_slots": {
+   "V09": "정부·의사 사이에서 환자의 자리 — 조정 못함과 조정 막음의 구별(18장)",
+   "V21": "같은 발표를 다르게 읽는 두 보도 — 표방과 경계의 어긋남(15·18장)",
+   "V37": "잔류·탈퇴 이후의 제도 — 이긴 뒤 조건을 열어 두는가(18·19장)",
+   "V39": "반론을 읽으면 무엇이 다시 열리는가 — 응답·수정·조건 재설정(S-33)",
+   "VX03": "어려운 반론 — 저항과 지배를 같은 아귀다툼으로 묶지 않기(18장)",
+   "VX04": "결산 — 민심주의 시대·응답사회·품격(19장), CG/HG 판정"
   }
+ },
+ "legacy_scripts": {
+  "source": "Drive 「심업사상_유튜브_대본_종합집 (3).docx」(2026-01)",
+  "note": "강령 v0.1 이전 원고. '고리마피아'·'Groupality가 책임 0'·'삼성은 사람인가' 등 집격에 행위를 시키거나 적으로 정의하는 문장은 CLAUDE.md 3절·S-17a·S-37에 따라 고쳐 쓴다. 사실·사례 자료로만 재사용."
  }
 }

@@ -53,16 +53,28 @@ for code, ns in names.items():
 
 # 5. 참고문헌 참조
 ids = {i for v in vs for i in v.get("reference_ids", [])}
-if ids and "references" not in cat:
-    msg = f"reference_ids {sorted(ids)}가 가리키는 참고문헌 표가 카탈로그에 없음"
-    (warns if "reference_registry" in cat else errors).append(msg)
+reg = cat.get("reference_registry", {})
+missing_ids = sorted(i for i in ids if str(i) not in reg.get("entries", {}))
+if missing_ids:
+    errors.append(f"reference_ids {missing_ids}가 가리키는 참고문헌 항목이 카탈로그에 없음")
+elif ids and "추정" in reg.get("status", ""):
+    warns.append(f"참고문헌 {sorted(ids)}는 사용 패턴으로 추정 복원한 것 — 원문 확인 필요")
 
 # 6. 기획축 커버리지
 blob = json.dumps(cat, ensure_ascii=False)
 if "민파" not in blob:
     errors.append("민파/패파가 카탈로그에 한 번도 등장하지 않음(기획서는 주요 기획축이라 함)")
+elif "[신규" not in json.dumps(cat.get("minpa_paepa", {}), ensure_ascii=False):
+    warns.append("민파/패파가 강령에 없는 개념인데 [신규] 표시가 없음(CLAUDE.md 7절)")
 if not any(v.get("mito_link") for v in vs):
     errors.append("미토가 어느 회차에도 연결되지 않음")
+
+# 6b. 용어 고정(CLAUDE.md 6절)과 9대이론 정식 명칭(사이론 v0.37 부록 G)
+for bad, why in [("集擊", "집격=集格만"), ("마음사상", "Simup Sasang"), ("ULRP", "ULRP→ULBP"),
+                 ("집격이론", "9대이론 정식 명칭은 집격론"), ("기준점원칙(ULBP)", "정식 명칭은 상위레벨 기준점(ULBP)")]:
+    n = blob.count(bad)
+    if n:
+        errors.append(f"용어 '{bad}' {n}회 — {why}")
 
 # 7. 대표 학자
 missing = [v["id"] for v in main if "primary_scholar" not in v]
